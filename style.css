@@ -14,6 +14,8 @@
     background-size: cover ;
 }
 
+
+
 .header{
     background-color: #343a40;
     
@@ -72,16 +74,13 @@ img {
     
 }
 
-
-
-@keyframes Slide_Up{
-    0%{
-    tarnsform: translateY(250px);
-    }
-
-    100%{
-        transform: translatey(0px);
-    }
+.padding .container .row img {
+    height: 355px;
+    padding-top: 35px; 
+    margin-left: -69px;
+    position: relative ;
+    
+     
 }
 
 
@@ -90,22 +89,26 @@ img {
 
 
 
-footer {
+
+/*footer {
     position:absolute;
     bottom:0;
     width:100%;
- }
+ }*/
 
 
 
 
- @media (max-width: 768px) {
+@media (max-width: 812px) {
       .landing-text h1{
-          font-size: 250%;
+          font-size: 220%;
           
           
       } 
-      .landing-text{
-        padding: 25%;
+      .row col-sm-6{
+          position: relative;
+          left: 15rem;
+          height: 250px;
+
       }
- }
+    }
