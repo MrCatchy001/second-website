@@ -41,6 +41,7 @@ img {
     height: 100px;
     position: relative;
     left: 89px;
+    margin-left: 35px;
 }
 .fa-bars{
     color: white;
